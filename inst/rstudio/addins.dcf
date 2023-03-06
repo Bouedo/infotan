@@ -1,0 +1,4 @@
+Name: get next transport
+Description: Obtain information on the schedules of the next trams
+Binding: get_next_transport
+Interactive: false

@@ -1,0 +1,13 @@
+Package: infotan
+Type: Package
+Title: Infotan package for the search of next public transport crossings at Nantes.
+Version: 0.1.0
+Author: Theo Bouedo
+Description: The infotan package provides a suite of functions for accessing public transport information in the city of Nantes. It includes 4 functions. Functions include get_next_transport, which finds the next passes to a given station, is_station, which checks if an entry is a valid station, get_waiting_time, which retrieves the waiting time for a given location code, and find_closest_name, which finds the nearest station name using a string similarity algorithm.
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports:
+  stringdist
+RoxygenNote: 7.2.3
